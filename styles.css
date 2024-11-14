@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 215, 221);
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    margin: 40px;
+    background-color: lightpink;
+    border: 1px  solid palevioletred;
+    padding: 20px ;
+    border-radius: 20px;
+}
+
+legend{
+    background-color:  lightpink;
+    border: 1px  solid palevioletred;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+fieldset{
+    background-color: rgb(255, 243, 188);
+    border: 1px solid rgb(221, 191, 108);
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    line-height: 2;
+}
+
+div{
+    margin: auto;
+    width: 250px;
+}
+
+#taro{
+    width:60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#momm{
+    width: 155px;
+}
+
+#dadd{
+    width: 130px;
+}
+
+input[type="submit"]{
+    background-color:  lightpink;
+    border: 1px  solid palevioletred;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+main{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    
+}
+
+main img{
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+}
